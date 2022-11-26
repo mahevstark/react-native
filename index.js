@@ -399,46 +399,40 @@ module.exports = {
       );
   },
   // Deprecated Prop Types
+  // Deprecated Prop Types
   get ColorPropType(): $FlowFixMe {
-    console.error(
-      'ColorPropType will be removed from React Native, along with all ' +
-        'other PropTypes. We recommend that you migrate away from PropTypes ' +
-        'and switch to a type system like TypeScript. If you need to ' +
-        'continue using ColorPropType, migrate to the ' +
-        "'deprecated-react-native-prop-types' package.",
-    );
+    // invariant(
+    //   false,
+    //   'ColorPropType has been removed from React Native. Migrate to ' +
+    //     "ColorPropType exported from 'deprecated-react-native-prop-types'.",
+    // );
     return require('deprecated-react-native-prop-types').ColorPropType;
   },
   get EdgeInsetsPropType(): $FlowFixMe {
-    console.error(
-      'EdgeInsetsPropType will be removed from React Native, along with all ' +
-        'other PropTypes. We recommend that you migrate away from PropTypes ' +
-        'and switch to a type system like TypeScript. If you need to ' +
-        'continue using EdgeInsetsPropType, migrate to the ' +
-        "'deprecated-react-native-prop-types' package.",
-    );
+    // invariant(
+    //   false,
+    //   'EdgeInsetsPropType has been removed from React Native. Migrate to ' +
+    //     "EdgeInsetsPropType exported from 'deprecated-react-native-prop-types'.",
+    // );
     return require('deprecated-react-native-prop-types').EdgeInsetsPropType;
   },
   get PointPropType(): $FlowFixMe {
-    console.error(
-      'PointPropType will be removed from React Native, along with all ' +
-        'other PropTypes. We recommend that you migrate away from PropTypes ' +
-        'and switch to a type system like TypeScript. If you need to ' +
-        'continue using PointPropType, migrate to the ' +
-        "'deprecated-react-native-prop-types' package.",
-    );
+    // invariant(
+    //   false,
+    //   'PointPropType has been removed from React Native. Migrate to ' +
+    //     "PointPropType exported from 'deprecated-react-native-prop-types'.",
+    // );
     return require('deprecated-react-native-prop-types').PointPropType;
   },
   get ViewPropTypes(): $FlowFixMe {
-    console.error(
-      'ViewPropTypes will be removed from React Native, along with all ' +
-        'other PropTypes. We recommend that you migrate away from PropTypes ' +
-        'and switch to a type system like TypeScript. If you need to ' +
-        'continue using ViewPropTypes, migrate to the ' +
-        "'deprecated-react-native-prop-types' package.",
-    );
+    // invariant(
+    //   false,
+    //   'ViewPropTypes has been removed from React Native. Migrate to ' +
+    //     "ViewPropTypes exported from 'deprecated-react-native-prop-types'.",
+    // );
+
     return require('deprecated-react-native-prop-types').ViewPropTypes;
-  },
+  },
 };
 
 if (__DEV__) {
